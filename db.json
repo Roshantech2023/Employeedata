@@ -12,6 +12,18 @@
       "name": "Anuroshan B",
       "email": "anuroshanb@gmail.com",
       "password": "9999"
+    },
+    {
+      "id": "anurosan",
+      "name": "Anuroshan Balagiri",
+      "email": "anuroshan886@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "Anuroshan",
+      "name": "Anuroshan B",
+      "email": "anuroshan886@gmail.com",
+      "password": "12345"
     }
   ]
 }
