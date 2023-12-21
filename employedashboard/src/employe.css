@@ -1,0 +1,59 @@
+*{
+    background-color: black;
+    color: #ffff;
+}
+.textForm{
+    margin-top: 2rem;
+}
+input{
+    width: 30%;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: #ffff;
+    color: black;
+    margin-top: 2rem;
+  }
+  .top-bar .logout{
+    display:flex;
+    justify-content:left;
+    margin-right:5rem;
+    background-color: red;
+  } 
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .centered-element {
+    text-align: center;
+    height: 450px;
+    width: 40%;
+    overflow: auto;
+    margin-top: 0;
+  }
+.data{
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: #808080;
+  }
+  .data p{
+    background-color: #808080;
+  }
+  .buttons{
+    margin-top: 2rem;
+    background-color: black;
+  }
+  .buttons .button{
+    background-color: aliceblue;
+    color: black;
+  }
+  span{
+    color: green;
+    background-color: #808080;
+  }
+  .emp{
+    color: red;
+  }

@@ -5,6 +5,8 @@ import Signup from './Signup';
 import 'react-toastify'
 import { ToastContainer } from 'react-toastify';
 import Login from './login';
+import Employepage from './Employepage';
+import Addemp from './Addemp';
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
         <Route path='/' element={<Login/>}></Route>
         <Route path='/home' element={<Home/>}></Route>
         <Route path='/signup' element={<Signup/>}></Route>
+        <Route path='/employe' element={<Employepage/>}></Route>
+        <Route path='/adding' element={<Addemp/>}></Route>
        </Routes>
        </BrowserRouter>
     </div>
