@@ -1,0 +1,50 @@
+{
+  "user": [
+    {},
+    {
+      "id": "anu",
+      "name": "Anuroshan B",
+      "email": "anuroshanb@gmail.com",
+      "password": "9788"
+    },
+    {
+      "id": "roshan",
+      "name": "Anuroshan",
+      "email": "anuroshanb@gmail.com",
+      "password": "Anu@123"
+    },
+    {
+      "id": "Roshan",
+      "name": "Anuroshan",
+      "email": "anuroshan886@gmail.com",
+      "password": "A@123"
+    }
+  ],
+  "employee": [
+    {},
+    {
+      "id": "8",
+      "name": "kiran",
+      "date": "2024-01-04",
+      "designation": "software developer"
+    },
+    {
+      "id": "999",
+      "name": "udhay",
+      "date": "2024-01-04",
+      "designation": "developer"
+    },
+    {
+      "id": "100",
+      "name": "roshan",
+      "date": "2024-01-06",
+      "designation": "web designer"
+    },
+    {
+      "id": "123",
+      "name": "Anuroshan",
+      "date": "2024-01-05",
+      "designation": "job seeker"
+    }
+  ]
+}

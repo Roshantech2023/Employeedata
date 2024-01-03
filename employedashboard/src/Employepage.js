@@ -15,29 +15,39 @@ function Employepage() {
 
 
     return (
-        <body>
-            <div className='top-bar'>
-             <form className='textForm'>
-                    <input type='text' placeholder='Search here'/>
-                </form>
-                <div className='buttons'>
-                        <Link to='/adding' className='button'> Add Employe</Link>
-                </div>
-                </div>
-            <div class="center-container">
-                <div class="centered-element">
-                    {data.map((employee, index) => (
-                        <div className='data' key={index}>
-                            <p>EMP ID     :&nbsp;&nbsp;&nbsp;    <span className='emp'>{employee.id}</span></p>
-                            <p>Name       :&nbsp;&nbsp;&nbsp;    {employee.name}</p>
-                            <p>DOB        :&nbsp;&nbsp;&nbsp;    {employee.date}</p>
-                            <p>Designation:&nbsp;&nbsp;&nbsp;    <span>{employee.designation}</span></p>
-                        </div>
-                    ))}
-                </div>
-            </div>
-        </body>
-        
+    <div className='d-flex vh-100 bg-black justify-content-center align-items-center'>
+    <div className=''>
+      <h2 className='text-white'>Employes List</h2>
+      <div className='buttons-emp d-flex justify-content-between bg-gray p-4'>
+        <Link to="/" className='btn btn-primary'>LOGOUT</Link>
+        <Link to="/adding" className='btn btn-secondary'>Add user</Link>
+      </div>
+    <div className='main-div'>
+    <div className='table-responsive'  style={{ maxHeight: '400px', overflowY: 'auto' }}>
+      <table className="table table-bordered table-striped">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>name</th>
+            <th>DOB</th>
+            <th>designation</th>
+          </tr>
+        </thead>
+        <tbody>
+          {data.map((employe,index) => {
+            return <tr key={index}>
+              <td>{employe.id}</td>
+              <td>{employe.name}</td>
+              <td>{employe.date}</td>
+              <td>{employe.designation}</td>
+            </tr>
+          })}
+        </tbody>
+      </table>
+      </div>
+    </div>
+  </div>
+  </div>
     )
 }
 

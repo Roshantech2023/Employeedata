@@ -20,7 +20,7 @@ function Login() {
                 } else {
                     if (resp.password === password) {
                         toast.success("success....");
-                        navigate('/home')
+                        navigate('/employe')
                     } else {
                         toast.error("please enter valid credentials");
                     }
@@ -52,7 +52,7 @@ function Login() {
                 <h2>Login</h2>
                 <form action='' onSubmit={proceedLogin}>
                     <div className='mb-3'>
-                        <input value={username} onChange={e => setname(e.target.value)} type='text' placeholder='Enter your email...' name='email'
+                        <input value={username} onChange={e => setname(e.target.value)} type='text' placeholder='Enter your username...' name='email'
                             className='form-control bg-gradient rounded-5'></input>
                     </div>
                     <div className='mb-3'>
